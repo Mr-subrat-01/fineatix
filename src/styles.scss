@@ -1,1 +1,115 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  /* Primary Colors */
+  --primary-color: #FF6D4A; /* Orange-Red from logo */
+  --secondary-color: #00A8CC; /* Blue-Teal from logo */
+  --accent-color: #4A90E2; /* Light blue accent */
+  --tertiary-color: #FFC371; /* Light orange for softer accents */
+
+  /* Background Colors */
+  --primary-bg-color: #FFFFFF; /* White background */
+  --secondary-bg-color: #F7F8FA; /* Light gray background */
+  --tertiary-bg-color: #EAF4F8; /* Very light teal background */
+  --dark-bg-color: #1E2A38; /* Dark navy for sections */
+  --light-bg-color: #FAFBFD; /* Off-white background for sections */
+  --box-bg-color: #EAF4F8; /* Light teal box background */
+  --box-dark-bg-color: #F3F7F9; /* Light background for boxed content */
+  --success-bg-color: #E6FFFA; /* Soft green success background */
+  --error-bg-color: #FFE8E8; /* Light red error background */
+  --warning-bg-color: #FFF7E6; /* Light yellow for warnings */
+  --info-bg-color: #E0F7FA; /* Light cyan for informational boxes */
+
+  /* Text Colors */
+  --primary-text-color: #333333; /* Dark gray text for readability */
+  --secondary-text-color: #666666; /* Medium gray text */
+  --tertiary-text-color: #999999; /* Light gray text */
+  --muted-text-color: #AAAAAA; /* Muted light gray text */
+  --box-text-color: #006E90; /* Teal text inside boxes */
+  --dark-text-color: #1A1A1A; /* Almost black text for emphasis */
+  --light-text-color: #F5F5F5; /* Light text for dark backgrounds */
+  --success-text-color: #00B894; /* Green success text */
+  --error-text-color: #FF4D4D; /* Red error text */
+  --warning-text-color: #E67E22; /* Orange warning text */
+  --info-text-color: #007B83; /* Cyan for informational text */
+
+  /* Border Colors */
+  --primary-border-color: #DDE2E6; /* Light gray borders */
+  --secondary-border-color: #C7D7E2; /* Soft blue-gray border */
+  --tertiary-border-color: #B3E2E5; /* Light teal border */
+  --box-border-color: #B3E2E5; /* Teal border for boxes */
+  --dark-border-color: #2D3E50; /* Darker border for contrast */
+  --success-border-color: #00B894; /* Green success border */
+  --error-border-color: #FF6D4A; /* Orange-red error border */
+  --warning-border-color: #FFB347; /* Orange warning border */
+  --info-border-color: #B3E5E7; /* Cyan informational border */
+
+  /* Button Colors */
+  --btn-primary-bg: #FF6D4A; /* Main button background */
+  --btn-primary-text: #FFFFFF; /* Button text color */
+  --btn-secondary-bg: #00A8CC; /* Secondary button background */
+  --btn-secondary-text: #FFFFFF; /* Secondary button text */
+  --btn-hover-bg: #FF5722; /* Hover effect on buttons */
+  --btn-disabled-bg: #CCCCCC; /* Disabled button background */
+  --btn-disabled-text: #999999; /* Disabled button text */
+
+  /* Box Colors */
+  --box-bg-color: #EAF4F8; /* Light teal background for content boxes */
+  --box-text-color: #006E90; /* Teal box text */
+  --box-border-color: #B3E2E5; /* Border around content boxes */
+  --box-shadow-color: rgba(0, 0, 0, 0.05); /* Subtle box shadow */
+
+  /* Hover Effects */
+  --hover-bg-color: #F2F4F7; /* Light gray for hover */
+  --hover-border-color: #B3E5E7; /* Light cyan hover border */
+
+  /* Shadows */
+  --box-shadow: rgba(0, 0, 0, 0.1); /* Light box shadow */
+  --hover-shadow: rgba(0, 0, 0, 0.15); /* Slightly stronger shadow on hover */
+
+  /* Alerts */
+  --success-color: #00B894; /* Success state text */
+  --success-bg-color: #E6FFFA; /* Background for success states */
+  --error-color: #FF6D4A; /* Error state text */
+  --error-bg-color: #FFE8E8; /* Background for error states */
+  --warning-color: #E67E22; /* Warning state text */
+  --warning-bg-color: #FFF7E6; /* Background for warning states */
+  --info-color: #007B83; /* Info state text */
+  --info-bg-color: #E0F7FA; /* Background for informational states */
+
+  /* Miscellaneous */
+  --disabled-bg-color: #EFEFEF; /* Disabled state background */
+  --disabled-text-color: #CCCCCC; /* Disabled text color */
+  --divider-color: #E0E0E0; /* For dividers and subtle lines */
+
+  /* Navigation Bar */
+  --nav-bg-color: #1E2A38; /* Dark navy background to provide contrast for the logo */
+  --nav-text-color: #FFFFFF; /* White text for navigation links */
+  --nav-link-color: #FFFFFF; /* White for links to stand out against dark background */
+  --nav-link-hover-color: #FF6D4A; /* Orange-red hover effect for active state */
+  --nav-link-active-color: #00A8CC; /* Blue-teal active link color */
+  --nav-shadow-color: rgba(0, 0, 0, 0.2); /* Slight shadow to give nav bar depth */
+
+  /* Mobile Menu Background */
+  --mobile-nav-bg-color: #2D3E50; /* Slightly lighter navy for mobile menu */
+
+  /* Link Colors */
+  --link-color: #00A8CC; /* Blue-teal links across the site */
+  --link-hover-color: #FF6D4A; /* Orange-red hover for interactive links */
+  --link-active-color: #4A90E2; /* Light blue for active link state */
+  --link-muted-color: #666666; /* Muted gray for less prominent links */
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
